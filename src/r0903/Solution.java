@@ -28,7 +28,7 @@ public class Solution {
         Listnode l1 = new Listnode(2, new Listnode(4, new Listnode(2)));  //创建链表，那么
                                                                                         //如果一串很长的数字该怎么办呢？
         Listnode l2 = new Listnode(1,new Listnode(6,new Listnode(4)));
-
+ //new listnode (值，下一个结点)
         Listnode result = new Solution().addTwoNumbers(l1,l2);
 
 //        int length = 0;   242 461
